@@ -28,7 +28,7 @@ tox==3.14.6
 pluggy<1.0.0  # pluggy==1.0.0 requires tox>3.14.6
 
 # cybersource-rest-client-python requires 2.7, but requests gives 2.10 by default
-idna==2.7
+idna==3.7
 
 # TODO : Pinning this until we are sure there aren't any breaking changes, then we'll upgrade.
 celery<6.0.0
